@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PalindromeNumber", "9.Pal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "234.PalindromeLinkedList", "234.PalindromeLinkedList\234.PalindromeLinkedList.csproj", "{319E308A-C050-4389-A499-E83B089918BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.LongestCommonPrefix", "14.LongestCommonPrefix\14.LongestCommonPrefix.csproj", "{15AE2F15-CEBB-43F7-89C8-D01E2DC31FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{319E308A-C050-4389-A499-E83B089918BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{319E308A-C050-4389-A499-E83B089918BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{319E308A-C050-4389-A499-E83B089918BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AE2F15-CEBB-43F7-89C8-D01E2DC31FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AE2F15-CEBB-43F7-89C8-D01E2DC31FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AE2F15-CEBB-43F7-89C8-D01E2DC31FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AE2F15-CEBB-43F7-89C8-D01E2DC31FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

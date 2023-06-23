@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Dizi elemanlarını girin (virgülle ayrılmış):");
+        Console.WriteLine("Dizi elemanlarını girin (virgülle ayrırarak):");
         string input = Console.ReadLine();
 
         string[] numbersAsString = input.Split(',');
@@ -13,16 +13,14 @@
     }
     public static bool IsPalindromicList(int[] numbers)
     {
+       
         int reversed = 0; int original = 0;
         for (int j = 0; j < numbers.Length; j++)
         {
             original = (original * 10) + numbers[j];
         }
-        //for (int k = 0; k < numbers.Length; k++)
-        //{
-        //   reversed=(reversed * 10) + (original % 10);
-        //    original /= 10;
-        //}
+        if (original == 0 || original % 10 == 0)
+            return true;
         int result = original;
         while (result > 0)
         {
