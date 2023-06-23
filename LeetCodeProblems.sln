@@ -5,7 +5,13 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13-RomanToInteger", "LeetCodeProblems\13-RomanToInteger.csproj", "{30A49EC3-11C5-467C-BFA4-4C5CB30D1D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21.MergeTwoSortedLists", "21.MergeTwoSortedLists\21.MergeTwoSortedLists.csproj", "{5AB34B68-61E1-4AD5-B9AB-5028570386DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "21.MergeTwoSortedLists", "21.MergeTwoSortedLists\21.MergeTwoSortedLists.csproj", "{5AB34B68-61E1-4AD5-B9AB-5028570386DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoSum", "TwoSum\TwoSum.csproj", "{9FEA59BF-FBDE-4B2A-9AC2-CDB6A157412A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.PalindromeNumber", "9.PalindromeNumber\9.PalindromeNumber.csproj", "{FDC62DDD-BC3F-4D02-8555-983B096FF3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "234.PalindromeLinkedList", "234.PalindromeLinkedList\234.PalindromeLinkedList.csproj", "{319E308A-C050-4389-A499-E83B089918BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{5AB34B68-61E1-4AD5-B9AB-5028570386DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AB34B68-61E1-4AD5-B9AB-5028570386DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AB34B68-61E1-4AD5-B9AB-5028570386DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEA59BF-FBDE-4B2A-9AC2-CDB6A157412A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEA59BF-FBDE-4B2A-9AC2-CDB6A157412A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEA59BF-FBDE-4B2A-9AC2-CDB6A157412A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEA59BF-FBDE-4B2A-9AC2-CDB6A157412A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC62DDD-BC3F-4D02-8555-983B096FF3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC62DDD-BC3F-4D02-8555-983B096FF3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC62DDD-BC3F-4D02-8555-983B096FF3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC62DDD-BC3F-4D02-8555-983B096FF3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319E308A-C050-4389-A499-E83B089918BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319E308A-C050-4389-A499-E83B089918BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319E308A-C050-4389-A499-E83B089918BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319E308A-C050-4389-A499-E83B089918BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
